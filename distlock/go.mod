@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils/distlock
+module github.com/mimokpl/go-utils/distlock
 
 go 1.25.0
 

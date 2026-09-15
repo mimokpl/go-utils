@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/tx7do/go-utils/id/machineid"
+	"github.com/mimokpl/go-utils/id/machineid"
 )
 
 func Example() {

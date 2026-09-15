@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils/id
+module github.com/mimokpl/go-utils/id
 
 go 1.25.0
 
@@ -10,7 +10,7 @@ require (
 	github.com/segmentio/ksuid v1.0.4
 	github.com/sony/sonyflake v1.3.0
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-utils v1.1.38
+	github.com/mimokpl/go-utils v1.1.38
 	go.mongodb.org/mongo-driver/v2 v2.6.0
 	golang.org/x/sys v0.43.0
 )
@@ -23,4 +23,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/go-utils => ../
+replace github.com/mimokpl/go-utils => ../

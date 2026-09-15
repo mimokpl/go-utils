@@ -9,7 +9,7 @@ import (
 
 	"github.com/alicebob/miniredis/v2"
 	"github.com/redis/go-redis/v9"
-	"github.com/tx7do/go-utils/distlock"
+	"github.com/mimokpl/go-utils/distlock"
 )
 
 func newTestLocker(t *testing.T, opts distlock.Options) (distlock.Locker, *miniredis.Miniredis) {

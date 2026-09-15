@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/redis/go-redis/v9"
-	"github.com/tx7do/go-utils/captcha"
+	"github.com/mimokpl/go-utils/captcha"
 )
 
 // ExampleNewCaptcha_OptionsPattern 使用 Options 模式创建验证码（推荐）

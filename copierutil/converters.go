@@ -7,8 +7,8 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/tx7do/go-utils/timeutil"
-	"github.com/tx7do/go-utils/trans"
+	"github.com/mimokpl/go-utils/timeutil"
+	"github.com/mimokpl/go-utils/trans"
 )
 
 var TimeToStringConverter = copier.TypeConverter{

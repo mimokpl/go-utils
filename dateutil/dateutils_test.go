@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-utils/dateutil"
+	"github.com/mimokpl/go-utils/dateutil"
 )
 
 func TestFloor(t *testing.T) {

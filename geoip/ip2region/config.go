@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tx7do/go-utils/geoip/ip2region/xdb"
+	"github.com/mimokpl/go-utils/geoip/ip2region/xdb"
 )
 
 const (

@@ -1,8 +1,8 @@
-module github.com/tx7do/go-utils/captcha
+module github.com/mimokpl/go-utils/captcha
 
 go 1.25.0
 
-replace github.com/tx7do/go-utils => ../
+replace github.com/mimokpl/go-utils => ../
 
 require (
 	github.com/mojocn/base64Captcha v1.3.8

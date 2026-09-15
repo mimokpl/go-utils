@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/tx7do/go-utils/id/machineid"
+	"github.com/mimokpl/go-utils/id/machineid"
 )
 
 // FormatOption 定义格式化选项

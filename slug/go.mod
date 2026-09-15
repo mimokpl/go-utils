@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils/slug
+module github.com/mimokpl/go-utils/slug
 
 go 1.23.0
 

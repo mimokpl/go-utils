@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-utils/structutil"
+	"github.com/mimokpl/go-utils/structutil"
 )
 
 type TestStruct struct {

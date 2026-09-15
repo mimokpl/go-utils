@@ -1,11 +1,11 @@
-module github.com/tx7do/go-utils/query_parser
+module github.com/mimokpl/go-utils/query_parser
 
 go 1.25.0
 
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-utils v1.1.30
+	github.com/mimokpl/go-utils v1.1.30
 )
 
 require (
@@ -16,4 +16,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/go-utils => ../
+replace github.com/mimokpl/go-utils => ../

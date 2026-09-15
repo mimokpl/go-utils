@@ -11,7 +11,7 @@ import (
 	mathRand "math/rand/v2"
 
 	"github.com/google/uuid"
-	utilMath "github.com/tx7do/go-utils/math"
+	utilMath "github.com/mimokpl/go-utils/math"
 )
 
 // RandType 随机数生成器类型枚举

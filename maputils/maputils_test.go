@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/tx7do/go-utils/maputils"
+	"github.com/mimokpl/go-utils/maputils"
 )
 
 func TestKeys(t *testing.T) {

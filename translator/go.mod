@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils/translator
+module github.com/mimokpl/go-utils/translator
 
 go 1.24.0
 

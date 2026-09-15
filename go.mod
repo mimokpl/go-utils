@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils
+module github.com/mimokpl/go-utils
 
 go 1.25.0
 

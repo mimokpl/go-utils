@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils/crypto
+module github.com/mimokpl/go-utils/crypto
 
 go 1.25.0
 

@@ -7,8 +7,8 @@ import (
 	"github.com/go-kratos/kratos/v2/log"
 	"github.com/oschwald/geoip2-golang"
 
-	"github.com/tx7do/go-utils/geoip"
-	"github.com/tx7do/go-utils/geoip/geolite/assets"
+	"github.com/mimokpl/go-utils/geoip"
+	"github.com/mimokpl/go-utils/geoip/geolite/assets"
 )
 
 const defaultOutputLanguage = "zh-CN"

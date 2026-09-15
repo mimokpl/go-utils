@@ -1,10 +1,10 @@
-module github.com/tx7do/go-utils/copierutil
+module github.com/mimokpl/go-utils/copierutil
 
 go 1.25.0
 
 require (
 	github.com/jinzhu/copier v0.4.0
-	github.com/tx7do/go-utils v1.1.37
+	github.com/mimokpl/go-utils v1.1.37
 )
 
 require (
@@ -20,4 +20,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/go-utils => ../
+replace github.com/mimokpl/go-utils => ../

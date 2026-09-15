@@ -6,7 +6,7 @@ import (
 	"math/rand/v2"
 	"time"
 
-	"github.com/tx7do/go-utils/math"
+	"github.com/mimokpl/go-utils/math"
 )
 
 // Float32 生成 [0, 1) 随机 float32

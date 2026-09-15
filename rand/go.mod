@@ -1,11 +1,11 @@
-module github.com/tx7do/go-utils/rand
+module github.com/mimokpl/go-utils/rand
 
 go 1.25.0
 
 require (
 	github.com/google/uuid v1.6.0
 	github.com/stretchr/testify v1.11.1
-	github.com/tx7do/go-utils v1.1.39
+	github.com/mimokpl/go-utils v1.1.39
 )
 
 require (
@@ -15,4 +15,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/tx7do/go-utils => ../
+replace github.com/mimokpl/go-utils => ../

@@ -1,4 +1,4 @@
-module github.com/tx7do/go-utils/password
+module github.com/mimokpl/go-utils/password
 
 go 1.25.0
 
