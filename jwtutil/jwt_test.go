@@ -12,8 +12,8 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/stretchr/testify/assert"
 
-	_ "github.com/go-kratos/kratos/v2/encoding/json"
-	_ "github.com/go-kratos/kratos/v2/encoding/proto"
+	_ "github.com/go-kratos/kratos/v3/encoding/json"
+	_ "github.com/go-kratos/kratos/v3/encoding/proto"
 )
 
 func TestParseJWTPayload(t *testing.T) {

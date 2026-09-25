@@ -6,11 +6,11 @@ require (
 	github.com/bwmarrin/snowflake v0.3.0
 	github.com/google/uuid v1.6.0
 	github.com/lithammer/shortuuid/v4 v4.2.0
+	github.com/mimokpl/go-utils v1.9.0
 	github.com/rs/xid v1.6.0
 	github.com/segmentio/ksuid v1.0.4
 	github.com/sony/sonyflake v1.3.0
 	github.com/stretchr/testify v1.11.1
-	github.com/mimokpl/go-utils v1.1.1
 	go.mongodb.org/mongo-driver/v2 v2.6.0
 	golang.org/x/sys v0.43.0
 )
