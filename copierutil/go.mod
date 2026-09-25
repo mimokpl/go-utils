@@ -4,7 +4,7 @@ go 1.25.0
 
 require (
 	github.com/jinzhu/copier v0.4.0
-	github.com/mimokpl/go-utils v1.9.1
+	github.com/mimokpl/go-utils v1.9.2
 )
 
 require (

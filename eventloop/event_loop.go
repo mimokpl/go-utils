@@ -150,7 +150,7 @@ func (el *EventLoop) Start() error {
 		return nil
 	case <-time.After(50 * time.Millisecond):
 		// 仍然返回 nil，但打印日志帮助排查启动延迟
-		el.logger.Warnf("warning: eventLoop start timeout waiting for readiness")
+		el.logger.Warnf(context.Background(), "warning: eventLoop start timeout waiting for readiness")
 		return nil
 	}
 }
@@ -301,7 +301,7 @@ func (el *EventLoop) eventLoop() {
 		el.mu.Unlock()
 	}
 
-	//el.logger.Infof("EventLoop started")
+	//el.logger.Infof(ctx, "EventLoop started")
 
 	// 本地缓冲低优先级事件，保证在无高/中优先级事件时再处理
 	var deferredLow []Event
@@ -463,7 +463,7 @@ func (el *EventLoop) enqueueCallback(item callbackItem) {
 				return
 			case <-timer.C:
 				// 超时后放弃并记录
-				el.logger.Warnf("enqueue callback timeout, discard result")
+				el.logger.Warnf(context.Background(), "enqueue callback timeout, discard result")
 				return
 			}
 		}
@@ -494,7 +494,7 @@ func (el *EventLoop) callbackDispatcher() {
 					goto next
 				case <-deadline:
 					// 超时后放弃并记录
-					el.logger.Warnf("callback deliver timeout, discard result")
+					el.logger.Warnf(context.Background(), "callback deliver timeout, discard result")
 					goto next
 				}
 			}
@@ -547,7 +547,7 @@ func (el *EventLoop) deliverResult(event Event, result Result) {
 		case <-el.ctx.Done():
 			// loop stopped
 		case <-timer.C:
-			el.logger.Warnf("inline callback deliver timeout, discard result for event priority: %v", event.Priority)
+			el.logger.Warnf(context.Background(), "inline callback deliver timeout, discard result for event priority: %v", event.Priority)
 		}
 		return
 	}
