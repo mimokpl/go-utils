@@ -1,8 +1,6 @@
 module github.com/mimokpl/go-utils/mapper
 
-go 1.23.0
-
-toolchain go1.24.3
+go 1.25.0
 
 require github.com/jinzhu/copier v0.4.0
 
@@ -18,3 +16,5 @@ require (
 )
 
 replace github.com/mimokpl/go-utils => ../
+
+replace github.com/mimokpl/kratos-bootstrap/logger => /Users/sec/codes/mimokpl/mimox/relys/kratos-bootstrap/logger

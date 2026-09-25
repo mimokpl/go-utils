@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/go-kratos/kratos/v2/log"
+	log "github.com/mimokpl/kratos-bootstrap/logger"
 	"github.com/oschwald/geoip2-golang"
 
 	"github.com/mimokpl/go-utils/geoip"
